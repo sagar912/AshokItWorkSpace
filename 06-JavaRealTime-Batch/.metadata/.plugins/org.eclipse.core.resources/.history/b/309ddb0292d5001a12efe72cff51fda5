@@ -1,0 +1,52 @@
+package com.sagar.entites;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
+
+import lombok.Data;
+
+@Entity
+@Table(name="CITIZEN_MASTER")
+@Data
+public class CitizeninfoEnity {
+	
+	@Id
+	@SequenceGenerator(name = "citizen", sequenceName = "citizen_id_seq", allocationSize = 1)
+	@GeneratedValue(generator = "citizen", strategy = GenerationType.SEQUENCE)
+	@Column(name="CITIZEN_ID")
+	private int citizenId; 
+	
+	@Column(name="FIRST_NAME")
+	private String firstName;
+	
+	@Column(name="LAST_NAME")
+	private String lastName;
+	
+	@Column(name="GENDER")
+	private String gender;
+	
+	@Column(name="DOB")
+	private String dob;
+	
+	@Column(name="STATE_ID")
+	private int stateId; 
+	
+	/*
+	 * @Column(name="SSN")
+	 * 
+	 * @GenericGenerator( name="ssn_id_gen",
+	 * strategy="com.sagar.generators.SSNGenerator" )
+	 * 
+	 * @GeneratedValue(generator="ssn_id_gen")
+	 */
+	private int ssn;
+
+	
+}

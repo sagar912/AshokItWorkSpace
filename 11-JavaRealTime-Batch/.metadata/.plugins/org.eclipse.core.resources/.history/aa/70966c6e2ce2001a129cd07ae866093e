@@ -1,0 +1,17 @@
+package com.sagar.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Welcome {
+	
+	@GetMapping(value="/shoppingcart/{name}")
+	public String getLoad(@PathVariable("name")String name){
+		
+		String names="Hello "+name+",Welcome To Rest Application...";
+		
+		
+		return  names;
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.sagar.Service;
+
+import static org.junit.Assert.assertNotNull;
+
+public class ProductServiceTest {
+	
+	private static ProductServiceImpl prodservice=null;
+	
+	public void testgetProductNameById() {
+		
+		String productName = prodservice.findProductNameById(101);
+		
+	assertNotNull(productName);
+		
+			}
+
+}

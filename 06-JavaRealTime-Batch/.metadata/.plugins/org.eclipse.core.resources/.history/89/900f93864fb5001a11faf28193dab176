@@ -1,0 +1,41 @@
+package com.sagar.Service;
+
+import static org.junit.Assert.assertNotNull;
+
+import org.easymock.EasyMock;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.sagar.Dao.ProductDao;
+import com.sagar.services.ContactServiceImpl;
+
+public class ProductServiceTest {
+	
+	private static ProductServiceImpl prodservice=null;
+	
+	@BeforeClass
+     public static void init() {
+	    ProductDao prodDao =EasyMock.createMock(ProductDao.class);
+	    
+	    EasyMock.expect(prodDao.getProductById(101)).andReturn("Jon");
+		
+	    ProductServiceImpl p =new ProductServiceImpl();
+	    
+		 EasyMock.replay(prodDao);
+		 
+			
+			//Injecting proxy object into target obj
+					contactService = new ContactServiceImpl();
+					contactService.setContactDao(daoProxy);
+	     }
+	
+	@Test
+	public void testgetProductNameById() {
+		
+	String productName = prodservice.findProductNameById(101);
+		
+	assertNotNull(productName);
+		
+	}
+
+}

@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+D:\Java All\Java Workspace\11-JavaRealTime-Batch\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+958617435.index

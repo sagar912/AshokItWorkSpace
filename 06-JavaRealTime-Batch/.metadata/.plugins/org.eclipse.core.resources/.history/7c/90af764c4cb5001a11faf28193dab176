@@ -1,0 +1,14 @@
+package com.sagar.Service;
+
+import com.sagar.Dao.ProductDao;
+
+public class ProductServiceImpl implements ProductService {
+
+	private ProductDao productDao;
+	public int findProductNameById(int i) {
+        
+		
+		return 0;
+	}
+
+}

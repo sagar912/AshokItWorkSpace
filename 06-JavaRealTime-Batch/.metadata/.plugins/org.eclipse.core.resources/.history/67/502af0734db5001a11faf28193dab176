@@ -1,0 +1,18 @@
+package com.sagar.Service;
+
+
+
+public class ProductServiceTest {
+	
+	private static ProductServiceImpl prodservice=null;
+	
+	public String testgetProductNameById(int i) {
+		
+		prodservice.findProductNameById(101);
+		
+		return null;
+		
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.sagar.Dao;
+
+public interface ProductDao {
+
+	public String getProductById(int i);
+}

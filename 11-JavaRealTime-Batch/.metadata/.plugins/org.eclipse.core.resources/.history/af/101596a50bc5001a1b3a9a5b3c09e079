@@ -1,0 +1,16 @@
+package com.sagar.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class DateController {
+
+	@RequestMapping(value="/time")
+	public String showTime() {
+		
+		
+		return "time";
+		
+	}
+}

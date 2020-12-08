@@ -1,0 +1,92 @@
+1598251538515	Rename resource 'viewContactsdetails.jsp'
+1598251563060	Delete element
+1598252012244	Rename type 'REGISTER_HIS_USERS_Controller'
+1598284392131	Delete element
+1598298418717	Delete element
+1598298427836	Copy file
+1598298952155	Rename resource 'Delete_His_User_Success.jsp'
+1598358884036	Rename type 'UnlockLoginController'
+1598359217864	Rename package 'com.sagar.constants'
+1598359239259	Rename package 'com.sagar.admin.constants'
+1598359266137	Rename package 'com.sagar.controllers'
+1598359278494	Rename package 'com.sagar.entities'
+1598359286626	Rename package 'com.sagar.model'
+1598359295349	Rename package 'com.sagar.repositories'
+1598359304013	Rename package 'com.sagar.services'
+1598359312631	Rename package 'com.sagar.utils'
+1598359358220	Copy packages
+1598359368442	Rename package 'com.sagar.admin_module.constants.copy'
+1598359379497	Rename package 'com.sagar.admin_module.controllers.copy'
+1598359390159	Rename package 'com.sagar.admin_module.entities.copy'
+1598359399217	Rename package 'com.sagar.admin_module.model.copy'
+1598359412631	Rename package 'com.sagar.admin_module.repositories.copy'
+1598359424105	Rename package 'com.sagar.admin_module.services.copy'
+1598359444402	Rename package 'com.sagar.admin_module.utils.copy'
+1598359459788	Rename package 'com.sagar.plan_module.constants.copy'
+1598359464611	Rename package 'com.sagar.plan_module.controllers.copy'
+1598359468732	Rename package 'com.sagar.plan_module.entities.copy'
+1598359473361	Rename package 'com.sagar.plan_module.model.copy'
+1598359479292	Rename package 'com.sagar.plan_module.repositories.copy'
+1598359484867	Rename package 'com.sagar.plan_module.services.copy'
+1598359641674	Delete element
+1598359724112	Rename resource 'ACTION_His_User_Success.jsp'
+1598359738148	Rename resource 'unlockUser.jsp'
+1598359824673	Rename resource 'unlockUserSuccess.jsp'
+1598359853675	Rename resource 'Action_His_User_Success.jsp'
+1598359914541	Rename type 'Register_His_Users_Controller'
+1598359934341	Rename type 'View_His_Users_Controllers'
+1598359949825	Delete element
+1598360051468	Rename type 'HisUsersEntity'
+1598360056566	Delete element
+1598360066887	Delete element
+1598360117595	Delete element
+1598360129643	Delete element
+1598360138809	Rename type 'HIS_USERSRepo'
+1598360150344	Rename type 'HIS_USERService'
+1598360159956	Rename type 'HIS_USERServiceImpl'
+1598362879037	Copy file
+1598363396840	Delete element
+1598363432099	Rename package 'generators'
+1598363461745	Rename type 'OrderIdGenerator'
+1598364559714	Delete elements
+1598365649826	Delete element
+1598374153999	Copy file
+1598378065539	Copy file
+1598379018223	Rename resource 'Action_Plan_Success2.jsp'
+1598406140363	Delete element
+1598406205044	Rename resource 'Edit_Plan'
+1598406723899	Delete element
+1598622805180	Extract local variable 'adminRoleId'
+1598624028543	Rename type 'LoginUser'
+1598625914260	Rename package 'com.sagar.exceptions'
+1598625933414	Rename type 'NoSSNException'
+1598626150571	Delete element
+1598626172928	Rename type 'RestExceptionHandler'
+1598627253211	Rename resource 'login.jsp'
+1598812569077	Copy packages
+1598812607870	Rename package 'com.sagar.admin_module.constants.copy'
+1598812632925	Rename package 'com.sagar.admin_module.controllers.copy'
+1598812648379	Rename package 'com.sagar.admin_module.entities.copy'
+1598812665406	Rename package 'com.sagar.admin_module.exceptions.copy'
+1598812674255	Rename package 'com.sagar.admin_module.model.copy'
+1598812684630	Rename package 'com.sagar.admin_module.repositories.copy'
+1598812694385	Rename package 'com.sagar.admin_module.services.copy'
+1598812704269	Rename package 'com.sagar.admin_module.utils.copy'
+1598812752328	Delete element
+1598812803321	Delete element
+1598812807452	Delete elements
+1598812834150	Rename type 'Register_His_Users_Controller'
+1598812848468	Rename type 'AdminRoleEntity'
+1598812861849	Delete element
+1598812867414	Rename type 'HisUsersEntity'
+1598812879636	Delete element
+1598812889555	Delete element
+1598812892126	Delete element
+1598812897837	Rename type 'HIS_USERS'
+1598812902671	Rename type 'CitizenEntity'
+1598812911859	Rename type 'HIS_USERService'
+1598812921404	Rename type 'CitizenEntityService'
+1598812929883	Rename type 'HIS_USERServiceImpl'
+1598812936776	Delete element
+1598812942675	Rename type 'HIS_USERSRepo'
+1598813929631	Copy file

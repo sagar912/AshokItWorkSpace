@@ -1,0 +1,17 @@
+package com.sagar.Service;
+
+import com.sagar.Dao.ProductDao;
+
+public class ProductServiceImpl implements ProductService {
+
+	private ProductDao productDao;
+	public String findProductNameById(int i) {
+         
+		String productname= productDao.getProductById(i);
+			
+				String prod = productname.toUpperCase();
+		
+		return 0;
+	}
+
+}

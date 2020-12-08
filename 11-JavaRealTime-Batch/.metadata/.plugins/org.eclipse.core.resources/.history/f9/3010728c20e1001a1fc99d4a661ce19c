@@ -1,0 +1,31 @@
+package com.sagar.controllers;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+@RequestMapping("/rest")
+public class productController {
+	
+	@Autowired
+	private RestTemplate restTemplate;
+
+	@GetMapping(value="/product")
+	public String getLoad(@PathVariable("name") String name){
+		return  ("Hi"+name+"How are you....");
+	}
+	@RequestMapping(value = "/",method = RequestMethod.GET)
+	public ResponseEntity<String> welcome(){
+		String url="http://shooping-cart-service/shoppingcart";
+		
+		return  restTemplate.getForEntity(url, String.class);
+	}
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.sagar.exceptions&apos; to &apos;03-JuniEasyMock-App/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;04-JuniPowerMock-App&apos;&#x0D;&#x0A;- Destination element: &apos;03-JuniEasyMock-App/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;04-JuniPowerMock-App/src/main/java/com.sagar.exceptions&apos;" description="Copy package" destination="=03-JuniEasyMock-App/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sagar.exceptions" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1592981459131" version="1.0"/>
+</session>

@@ -1,0 +1,51 @@
+package com.sagar.rest;
+
+import static org.mockito.Mockito.when;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mockito;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.web.servlet.MockMvc;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sagar.model.CitizenRequest;
+import com.sagar.services.CitizenService;
+
+@RunWith(SpringRunner.class)
+@WebMvcTest(value = RegisterController.class)
+public class RegisterControllerTest {
+
+	@Autowired
+	private MockMvc mockMvc;
+	
+    @MockBean
+	private CitizenService citizenService;
+    
+    @MockBean
+    private CitizenRequest citizen;
+
+//=================================================== Enrollment Test ======================================================//
+	
+	@Test
+	public void EnrollSSNTest() throws Exception {
+
+		when(citizenService.ssnEntity(Mockito.any(CitizenRequest.class))).thenReturn("100000000");
+
+		CitizenRequest req=new CitizenRequest();
+		req.setFirstName("test1");
+		req.setLastName("test2");
+		req.setDob("09-12-1988");
+		req.setGender("Male");
+		req.setSsn("1000000000");
+		req.setStateName("New York");
+
+		ObjectMapper mapper=new ObjectMapper();
+		mapper.writeValueAsString(req);
+		
+		
+		//assertEquals(200, statusCd);
+	}
+}

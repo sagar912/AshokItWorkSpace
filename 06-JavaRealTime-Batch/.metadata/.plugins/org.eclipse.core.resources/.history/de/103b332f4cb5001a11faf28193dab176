@@ -1,0 +1,10 @@
+package com.sagar.Service;
+
+public class ProductServiceImpl implements ProductService {
+
+	public int findProductNameById(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

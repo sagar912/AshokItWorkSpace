@@ -1,0 +1,32 @@
+package com.sagar.Service;
+
+import static org.junit.Assert.assertNotNull;
+import org.easymock.EasyMock;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import com.sagar.Dao.ProductDao;
+
+
+public class ProductServiceTest {
+
+
+
+	@BeforeClass
+     public static void init() {
+	  ProductDao daoProxy = EasyMock.createMock(ProductDao.class);
+	   EasyMock.expect(daoProxy.getProductById(101)).andReturn("Jon");
+	   EasyMock.replay(daoProxy);
+		prodservice = new ProductServiceImpl();
+	
+	     
+	     }
+
+	@Test
+	public void  findProductNameById() {
+
+
+	//	assertNotNull(productName);
+
+	}
+
+}

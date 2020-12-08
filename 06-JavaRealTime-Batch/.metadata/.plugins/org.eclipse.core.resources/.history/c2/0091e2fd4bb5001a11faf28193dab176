@@ -1,0 +1,6 @@
+package com.sagar.Service;
+
+public interface ProductService {
+
+	public findProductNameById(int i);
+}
